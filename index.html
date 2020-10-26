@@ -126,10 +126,10 @@
 	<div class="tips">
 		<h2 class="tips-header">Design tips, tricks, and freebies. Delivered weekly.</h2>
 		<p class="tips-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
-		<div class="tips-links">
-			<a class="tips-links1" href=""><span class="link-text1"> Email Address...</span></a>
-			<a class="tips-links2" href=""><span class="link-text2"> subscribe</a>
-		</div>
+			<form class="tips-links" action="" method="GET">
+				<input class="tips-links1" type="email" name="Email" placeholder = "Email Address..." required="Email">
+				<button class="tips-links2" type="submit"><span class="link-text2">subscribe</span></button>
+			</form>
 	</div>
 
 	<div class="get-in-touch">
@@ -138,14 +138,14 @@
 		<hr class="get-in-touch-line">
 	</div>
 	<div class="send">
-		<div class="send-box">
-			<div class="send-two-links"> 
-				<a class="send1" href=""><span class="send1-text">Name</span></a>
-				<a class="send2" href=""><span class="send1-text">Your Mail</span></a>
-			</div>
-			<a class="send3" href=""><span class="send1-text">Type your message</span></a>
-			<a class="send4" href=""><span class="send4-text">Send message</span></a>
-		</div>	
+				<form class="send-box" action="" method="GET">
+					<div class="send-two-links">
+						<input class="send1" type="text" name="Name" placeholder="Name" required="Name">
+						<input class="send2" type="email" name="Mail" placeholder="Your Mail" required="Mail">
+					</div>
+					<input class="send3" type="text" name="Message" placeholder="Type your message" required="Message">
+					<button class="send4" type="submit"><span class="send4-text">Send message</span></button>
+				</form>
 			<div class="contact-info">
 				<div class="contact-info-right-box"></div>
 				<h3 class="send-header">contact info</h3>
